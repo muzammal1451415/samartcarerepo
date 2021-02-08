@@ -4,23 +4,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.smartcare.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
+
+    ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-//        djlnvjdnv
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
 
-        //allahakbar_786
-//       jvnjknvjkdnj ..allahakbar_786
-        // Hi
-        //Hello
-        //hello
-
-        //muzammal1451415
-        //allahakbar_786
-//        jknv
+        binding.tvText.setText("junigates");
 
     }
 }

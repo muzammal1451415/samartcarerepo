@@ -26,6 +26,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
+    buildFeatures {
+        dataBinding = true
+    }
+
 }
 
 dependencies {
@@ -36,4 +41,225 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+
+
+
+
+
+
+
+    //material design library
+    implementation 'com.google.android.material:material:1.2.1'
+    //ssp library
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    //sdp libary
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    //dexter lib
+    implementation 'com.karumi:dexter:6.2.1'
+    //toast library
+    implementation 'com.github.GrenderG:Toasty:1.5.0'
+    //otp view
+    implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.1.2'
+    //NavHostFragment
+    implementation 'androidx.navigation:navigation-fragment:2.3.1'
+    implementation 'androidx.navigation:navigation-ui:2.3.1'
+    //circular image view library
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    api 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+
+    //glide
+//    implementation 'com.github.bumptech.glide:glide:4.11.0'
+//    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    //view pager 2
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    //Country code picker library
+    implementation 'com.hbb20:ccp:2.4.0'
+    //clout coutary picker
+    implementation 'com.github.yesterselga:country-picker-android:1.0'
+    //gson
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+
+    //material time picker dialog
+    implementation 'com.wdullaer:materialdatetimepicker:4.2.3'
+
+    api 'com.stripe:stripe-android:11.1.4' ///payment method..
+
+    api 'org.apache.commons:commons-io:1.3.2' //common langs...
+
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.1'
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.1.1'
+    api 'io.github.microutils:kotlin-logging:1.6.23'
+
+    api 'com.wang.avi:library:2.1.3' // circular loading view
+    api 'com.github.nkzawa:socket.io-client:0.6.0' // for sockets
+
+    api 'com.github.dimitrisCBR:GradientTextView:1.2' // gradient text view
+    api "org.jetbrains.anko:anko:0.10.4" // anko for android
+    api "org.jetbrains.anko:anko-commons:0.10.8" // anko for android
+    api 'com.github.florent37:viewtooltip:1.2.2'  // tool tip text
+    api 'com.github.chrisbanes:PhotoView:2.3.0'  // Zooming Photo
+    api 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0'
+
+    api 'com.amitshekhar.android:android-networking:1.0.2'
+
+    api 'com.github.bumptech.glide:glide:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+
+    api 'com.google.android:flexbox:1.1.1'  // flexbox for chip/tags recyclerview
+
+    api 'com.google.android.libraries.places:places:2.2.0'
+    api 'com.google.android.gms:play-services-maps:17.0.0' // google map services
+
+    api 'com.karumi:dexter:5.0.0' // Permissions Library
+
+    api 'org.apache.commons:commons-lang3:3.9'
+    api 'com.google.code.gson:gson:2.8.6'
+
+    // for kotlin shared preferences
+    api 'androidx.core:core-ktx:1.1.0'
+    //multidex
+    api 'androidx.multidex:multidex:2.0.1'
+
+    //retrofit
+    api 'com.squareup.retrofit2:converter-moshi:2.7.1'
+    api 'com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2'
+    api 'com.squareup.retrofit2:retrofit:2.7.1'
+    api 'com.squareup.retrofit2:converter-gson:2.3.0'
+    //OkHttp
+
+    api 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+
+    api 'com.onesignal:OneSignal:3.14.1'
+
+    implementation platform('com.google.firebase:firebase-bom:26.1.1')
+    api 'com.google.android.gms:play-services-maps:17.0.0' // google map services
+    api 'com.google.firebase:firebase-crashlytics:17.1.0'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    api 'com.github.codekidX:storage-chooser:2.0.4.4'
+
+    implementation 'com.irozon.alertview:alertview:1.0.1'
+    implementation 'com.muddzdev:styleabletoast:2.2.4'
+
+    //expandable view
+    api 'net.cachapa.expandablelayout:expandablelayout:2.9.2'
+
+    api 'com.google.android.libraries.places:places:2.4.0'
+    api 'com.google.android.gms:play-services-maps:17.0.0' // google map services
+
+
+    api 'com.github.vansikrishna:Multimager:1.0.8'
+
+    api 'com.wdullaer:materialdatetimepicker:4.2.3'
+
+    api 'com.fxn769:pix:1.5.3'
+    api 'com.github.chrisbanes:PhotoView:2.3.0'  // Zooming Photo
+
+    api 'com.github.guilhe:circular-progress-view:1.4.2'
+    api 'com.github.douglasjunior:android-simple-tooltip:0.2.3'
+
+    api 'com.makeramen:roundedimageview:2.3.0' // for rounded images
+    api 'com.github.yalantis:ucrop:2.2.5-native'
+    api 'com.google.android.exoplayer:exoplayer:2.10.4' // exoplayer for android
+    api "com.github.thefuntasty.hauler:library:2.0.0"
+    api 'com.github.rtoshiro.fullscreenvideoview:fullscreenvideoview:1.1.2'
+    api 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:2.0.24'
+
+
+    //material design library
+    implementation 'com.google.android.material:material:1.2.1'
+    //ssp library
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    //sdp libary
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    //dexter lib
+    implementation 'com.karumi:dexter:6.2.1'
+    //toast library
+    implementation 'com.github.GrenderG:Toasty:1.5.0'
+    //view pager 2
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    //glide library
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //switch button
+    implementation 'com.github.zcweng:switch-button:0.0.3@aar'
+    //image picker
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0'
+    //MP Chart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    //retrofit libraries
+
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.6.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.2.1'
+
+//    api 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.5'
+
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    //noinspection LifecycleAnnotationProcessorWithJava8
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+
+    //multidex
+    implementation 'com.android.support:multidex:1.0.3'
+
+    //sockets
+    api 'com.github.nkzawa:socket.io-client:0.6.0'
+
+    //shimmer
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    //refresh layout
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    //lottie
+    def lottieVersion = "3.4.0"
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+
+    //sljnsl
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+
+    //exoplayer video
+    implementation 'com.github.HamidrezaAmz:MagicalExoPlayer:1.0.16'
+
+    //SwipeRevealLayout
+    implementation 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.1'
+
+    api 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+
+    api 'com.stripe:stripe-android:11.1.4'
+
+
+    implementation 'com.opentok.android:opentok-android-sdk:2.18.1'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+
+
+    //exopl;ayer
+
+
+    implementation "com.google.android.exoplayer:exoplayer:2.11.5"
+    implementation 'com.onesignal:OneSignal:3.15.0'
+
+    //social edittext
+//    implementation "com.hendraanggrian.appcompat:socialview:$version"
+
+    // auto-complete hashtag and mention
+    implementation "com.hendraanggrian.appcompat:socialview-commons:0.3-rc1"
+
+
+
+
+
+
 }
